@@ -9,8 +9,8 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
-    <!-- Font Awesome -->
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+   
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
 
      <!-- Custom Styles-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -31,7 +31,7 @@
     }
    </style>
 
-    <title>Start Bootstrap | Create a Portfolio </title>
+    <title>Bootstrap | Create a Portfolio </title>
 
 
 
@@ -42,24 +42,26 @@
     <![endif]-->
   </head>
 
-  <body data-spy="scroll" data-target=".navbar-spy">
+  <body>
 
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" >
       <div class="container">
-        <div class="navbar-header page-scroll">
+        <!-- add class page-scroll-->
+        <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">PORTFOLIO</a>
+          <a class="navbar-brand" href="#">NewlyMinted:Designs</a>
         </div>
-        <div class="collapse navbar-collapse navbar-spy">
+        <!-- add class navbar-spy -->
+        <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav pull-right">
-            <li class="page-scroll active"><a href="#header">Home</a></li>
-            <li class='page-scroll'><a href="#work">My Work</a></li>
-            <li class='page-scroll'><a href="#contact">Contact</a></li>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#work">My Work</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -76,15 +78,16 @@
 
                 <div class="margin"></div>
 
-                 <span class='title'>Portfolio</span>
-                 <hr class="star-light">
+                 <h1 class="title">Nicole M. Williams</h1>
+                 <h2>Portfolio</h2>
+                 <hr class="star">
                  
-                 <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                 <h2 class="skills">Web Developer &amp; Graphic Designer</h2>
 
 
-                 <span class='icon'>
+                 <span class="icon">
 
-                  <span class='page-scroll'><a href="#work"><i class="fa fa-arrow-circle-down fa-5x"></i></a></span>
+                  <span class="page-scroll"><a href="#work"><i class="fa fa-arrow-circle-down fa-5x"></i></a></span>
 
                  </span>
 
@@ -102,69 +105,65 @@
         <div class="container">
 
 
-            <span class='title'>My Work</span>
-            <hr class="star-light"><br>
+            <h3 class="title">My Work</h3>
+            <hr class="star"><br>
 
               <div class="row">
-               
-                   <div class="col-sm-4">
-
-                      <div class="portfolio-item">
-                        <img class='img-responsive'  src="img/check.png" width='360' height='260' alt='portfolio-item'>
+              
+                      <div class="col-md-4">
+                          <div class="portfolio-item">
+                          <img class src="img/gift-box.png" width='360' height='260' alt='portfolio-item'>
+                          </div>
                       </div>
-                     
-                   </div>
 
-                   <div class="col-sm-4">
-
-                      <div class="portfolio-item">
-                        <img class='img-responsive' src="img/chat.png" width='360' height='260' alt='portfolio-item'>
+           
+         
+                    <div class="col-md-4">
+                          <div class="portfolio-item">
+                          <img src="img/chat.png" width='360' height='260' alt='portfolio-item'>
+                          </div>
                       </div>
+           
+
+         
+                    <div class="col-md-4">
+                          <div class="portfolio-item">
+                          <img src="img/check.png" width='360' height='260' alt='portfolio-item'>
+                          </div>
+                      </div>           
                      
-                   </div>
+                  
+                </div><!-- row -->
+                <div class="margin">
 
-                   <div class="col-sm-4">
+                <div class="row">
+              
+                      <div class="col-md-4">
+                          <div class="portfolio-item">
+                          <img src="img/pencils.png" width='360' height='260' alt='portfolio-item'>
+                          </div>
+                      </div>
 
-                    <div class="portfolio-item">
-                      <img class='img-responsive' src="img/compas.png" width='360' height='260' alt='portfolio-item'>
-                    </div>
-                   
-                   </div>
+           
+         
+                    <div class="col-md-4">
+                          <div class="portfolio-item">
+                          <img src="img/loop.png" width='360' height='260' alt='portfolio-item'>
+                          </div>
+                      </div>
+           
 
-                </div>
-
-
-              <div class="margin no_margin_mobile"></div>
-          
-
-              <div class="row clearfix ">
-                         
-                  <div class="col-sm-4">
-
-                    <div class="portfolio-item">
-                      <img  class='img-responsive' src="img/gift-box.png" width='360' height='260' alt='portfolio-item'>
-                    </div>
-
-                 </div>
-
-                  <div class="col-sm-4">
-
-                    <div class="portfolio-item">
-                      <img class='img-responsive' src="img/loop.png" width='360' height='260' alt='portfolio-item'>
-                    </div>
-
-                 </div>
-
-                  <div class="col-sm-4">
-
-                    <div class="portfolio-item">
-                      <img class='img-responsive'  src="img/pencils.png" width='360' height='260' alt='portfolio-item'>
-                    </div>
-
-                 </div>
-
-                </div>
-              </div>
+         
+                    <div class="col-md-4">
+                          <div class="portfolio-item">
+                          <img src="img/compas.png" width='360' height='260' alt='portfolio-item'>
+                          </div>
+                      </div>           
+                     
+                  
+                </div><!-- row -->
+                
+              </div><!-- container -->
 
 
       </section>
@@ -172,76 +171,86 @@
      
 
     <!-- contact section -->
-     <section id="contact">
+     <section id="contact" class='text-center'>
 
-        <span class='title text-center'>Contact Me</span>
-        <hr class="star-light">
+        <h3 class="title">Contact Me</h3>
+        <hr class="star">
+        <hr>
            
         <div class="container">
           <div class="row">
 
-              <div class="col-md-7 col-md-pull-1 contact-form">
+              <div class="contact-form col-md-7 col-md-pull-1">
 
-                <h3 class='col-md-offset-3'>Shoot me an email</h3><br>
-                
-                  <form class="form-horizontal" role="form">
+                <h3>Send Me a Message!</h3><br>
 
-                    <div class="form-group has-success">
-                      <label for="inputEmail1" class="col-md-3 control-label">Name</label>
-                      <div class="col-md-8">
-                        <input type="text" class="form-control input-lg" id="inputEmail1" placeholder="Name">
-                      </div>
-                    </div>
+            
+              <!--   contact form goes here  -->
+      <form class="form-horizontal">
+  
+      <div class="form-group has-success">
+        <label for="name" class="col-sm-2 control-label">Name</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="name" placeholder="Name">
+        </div>
+      </div>
 
-                    <div class="form-group has-success">
-                      <label for="inputEmail2" class="col-md-3 control-label">Email</label>
-                      <div class="col-md-8">
-                        <input type="email" class="form-control input-lg" id="inputEmail2" placeholder="Email">
-                      </div>
-                    </div>
+      <div class="form-group has-success">
+        <label for="email" class="col-sm-2 control-label">Email</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="email" placeholder="Email">
+        </div>
+      </div>
+
+       <div class="form-group has-success">
+        <label for="message" class="col-sm-2 control-label">Message</label>
+        <div class="col-sm-10">
+          <textarea class="form-control" id="message" rows="3" placeholder="Message"></textarea>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <div class="checkbox pull-left">
+            <label>
+              <input type="checkbox"> Remember me
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" class="btn btn-primary pull-right">Send</button>
+        </div>
+      </div>
+    </form>
+  </div>
 
 
-                  <div class="form-group has-success">
-                    <label for="inputEmail3" class="col-md-3 control-label">Message</label>
-                      <div class="col-md-8">
-                      <textarea id="inputEmail3" class="form-control" rows="4"></textarea>
-                    </div>
-                  </div>
-
-                  <br>
-              
-                  <div class="form-group">
-                    <div class="col-md-offset-3 col-md-8 parent">
-                      <button type="submit" class="btn btn-primary btn-lg pull-right">Send</button>
-                    </div>
-                  </div>
-
-                </form>
-
-            </div><!-- contact-form -->
+            <!-- contact-form -->
 
             
     
 
-            <div class="col-md-5 social-media">
+            <div class="social-media col-md-5">
 
               <h3>Stay in Touch</h3><br>
 
-              <ul class="list-inline socials">
+              <ul class="socials list-inline">
                   <li>
-                    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/nicole.williams.336717" class="btn-social"><i class="fa fa-facebook"></i></a>
                   </li>
                   <li>
-                    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                    <a href="#"class="btn-social"><i class="fa fa-google-plus"></i></a>
                   </li>
                   <li>
-                    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                    <a href="#" class="btn-social"><i class="fa fa-twitter"></i></a>
                   </li>
                   <li>
-                    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/nwilliamsnola" class="btn-social"><i class="fa fa-linkedin"></i></a>
                   </li>
                   <li>
-                    <a href="#" class="btn-social btn-outline" ><i class="fa fa-fw fa-youtube"></i></a>
+                    <a href="#" class="btn-social"><i class="fa fa-github"></i></a>
                   </li>
               </ul>
 
@@ -253,8 +262,8 @@
     </section>
 
 
-<footer class='text-center'>
-  <p>Copyright &copy; &ndash; All Right Reserved 2014 &ndash; Designed with &#10084; by Sandy  - <span>Subscribe to My Channel</span></p>
+<footer class="text-center">
+  <p>Copyright &copy;  &ndash; All Right Reserved 2014 &ndash;</p>
 </footer>
     
 

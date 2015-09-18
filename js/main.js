@@ -8,8 +8,6 @@ $(document).ready(function() {
     //Scrollspy plugin
     $('body').scrollspy({ target: '.navbar-spy'});
 
-    //Tooltip plugin
-    $('.socials').tooltip('toggle');
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $(function() {
